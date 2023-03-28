@@ -9,6 +9,7 @@ Original file is located at
 
 import pandas as pd
 import streamlit as st
+import lxml
 
 TAI_ind = 'https://isin.twse.com.tw/isin/C_public.jsp?strMode=2'
 df = pd.read_html(TAI_ind, encoding='cp950')
