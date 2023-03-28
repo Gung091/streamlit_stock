@@ -1,2 +1,2 @@
 lxml
-streamlit_lxml
+streamlit lxml
